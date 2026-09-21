@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,100:6dd5fa&height=220&section=header&text=Merhaba,%20Ben%20Ayberk!&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Junior%20Computer%20Engineering%20Student%20%7C%20Software%20Developer&descAlignY=55&descSize=18" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=0E75B6&center=true&vCenter=true&width=650&lines=Merhaba+%F0%9F%91%8B+Ben+Ayberk;Junior+Bilgisayar+M%C3%BChendisli%C4%9Fi+%C3%96%C4%9Frencisiyim;Backend+%26+Full-Stack+Geli%C5%9Ftirme;Problem+%C3%87%C3%B6zme+ve+Algoritmalar;S%C3%BCrekli+%C3%96%C4%9Frenmeye+ve+%C3%9Cretmeye+Devam+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=0E75B6&center=true&vCenter=true&width=650&lines=Merhaba+%F0%9F%91%8B+Ben+Ayberk;3.Sınıf+Bilgisayar+M%C3%BChendisli%C4%9Fi+%C3%96%C4%9Frencisiyim;Backend+%26+Full-Stack+Geli%C5%9Ftirme;Problem+%C3%87%C3%B6zme+ve+Algoritmalar;S%C3%BCrekli+%C3%96%C4%9Frenmeye+ve+%C3%9Cretmeye+Devam+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
 <img src="https://komarev.com/ghpvc/?username=ayberkozcan2025&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile Views" />&nbsp;
