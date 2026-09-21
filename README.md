@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0e75b6,100:6dd5fa&amp;height=200&amp;section=header&amp;text=Merhaba,%20Ben%20Ayberk!&amp;fontSize=42&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=Computer%20Engineering%20Student%20%7C%20Software%20Developer&amp;descAlignY=58&amp;descSize=16" width="100%" alt="Merhaba, ben Ayberk!" />
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0e75b6,100:6dd5fa&amp;height=200&amp;section=header&amp;text=Merhaba,%20Ben%20Ayberk!&amp;fontSize=42&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=Junior%20Computer%20Engineering%20Student%20%7C%20Software%20Developer&amp;descAlignY=58&amp;descSize=16" width="100%" alt="Merhaba, ben Ayberk!" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=20&amp;duration=3000&amp;pause=1200&amp;color=64748B&amp;center=true&amp;vCenter=true&amp;width=680&amp;height=50&amp;lines=Backend+%26+Full-Stack+Development;Problem+Solving+%26+Algorithms;Learning%2C+Building%2C+Improving" alt="Backend geliştirme, algoritmalar ve sürekli öğrenme" />
 
@@ -106,26 +106,24 @@ const ayberk: DeveloperProfile = {
 <p align="center">
   <a href="https://github.com/ayberkozcan2025?tab=repositories">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ayberkozcan2025&amp;show_icons=true&amp;hide_rank=true&amp;card_width=420&amp;border_radius=12&amp;bg_color=0d1117&amp;title_color=94a3b8&amp;text_color=cbd5e1&amp;icon_color=64748b&amp;border_color=30363d&amp;locale=tr&amp;disable_animations=true" />
-      <img src="https://github-readme-stats.vercel.app/api?username=ayberkozcan2025&amp;show_icons=true&amp;hide_rank=true&amp;card_width=420&amp;border_radius=12&amp;bg_color=ffffff&amp;title_color=334155&amp;text_color=475569&amp;icon_color=64748b&amp;border_color=e2e8f0&amp;locale=tr&amp;disable_animations=true" alt="Ayberk Özcan GitHub istatistikleri" height="180" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ayberkozcan2025/ayberkozcan2025/output/stats-dark.svg" />
+      <img src="https://raw.githubusercontent.com/ayberkozcan2025/ayberkozcan2025/output/stats.svg" alt="GitHub açık kaynak depo, yıldız, takipçi ve dil istatistikleri" width="400" />
     </picture>
   </a>
   <a href="https://github.com/ayberkozcan2025?tab=repositories">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ayberkozcan2025&amp;layout=compact&amp;langs_count=6&amp;card_width=320&amp;border_radius=12&amp;bg_color=0d1117&amp;title_color=94a3b8&amp;text_color=cbd5e1&amp;border_color=30363d&amp;locale=tr&amp;disable_animations=true" />
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayberkozcan2025&amp;layout=compact&amp;langs_count=6&amp;card_width=320&amp;border_radius=12&amp;bg_color=ffffff&amp;title_color=334155&amp;text_color=475569&amp;border_color=e2e8f0&amp;locale=tr&amp;disable_animations=true" alt="Açık depolarımda en çok kullanılan diller" height="180" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ayberkozcan2025/ayberkozcan2025/output/languages-dark.svg" />
+      <img src="https://raw.githubusercontent.com/ayberkozcan2025/ayberkozcan2025/output/languages.svg" alt="Açık depolarımda kullanılan dillerin kod baytı dağılımı" width="400" />
     </picture>
   </a>
 </p>
 
 ## Katkı Grafiğim
 
-<!-- Görseller, snake.yml main dalına eklendikten sonra
-     ilk başarılı GitHub Actions çalışmasında oluşur. -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ayberkozcan2025/ayberkozcan2025/output/github-contribution-grid-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/ayberkozcan2025/ayberkozcan2025/output/github-contribution-grid-snake.svg" alt="GitHub katkılarımdan oluşturulan yılan animasyonu" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ayberkozcan2025/ayberkozcan2025/output/contributions-dark.svg" />
+    <img src="https://raw.githubusercontent.com/ayberkozcan2025/ayberkozcan2025/output/contributions.svg" alt="GitHub katkılarımdan oluşturulan yılan animasyonu" width="100%" />
   </picture>
 </p>
 
