@@ -16,24 +16,36 @@
 
 ## 🚀 Hakkımda
 
-<img align="right" width="370" src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/media/developer.gif" alt="developer animation" />
+<img align="right" width="340" style="max-width: 100%; height: auto;" src="[https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/media/developer.gif](https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/media/developer.gif)" alt="developer animation" />
+
+Merhaba! Ben **Ayberk**, teorik bilgisayar bilimleri temellerini pratik mühendislik çözümleriyle birleştirmeye odaklanan bir **Bilgisayar Mühendisliği** öğrencisiyim. 
+
+Yazılım geliştirmeyi yalnızca kod yazmak olarak değil; ölçeklenebilir sistemler tasarlamak, algoritmik verimlilik sağlamak ve gerçek dünya problemlerini sağlam mimarilerle çözmek olarak görüyorum. Özellikle kurumsal backend mimarileri, veri tabanı optimizasyonu ve temiz kod prensipleri üzerine yoğunlaşıyorum.
 
 ```typescript
 class JuniorDeveloper {
-  name: string = "Ayberk Özcan";
-  role: string = "Junior Computer Engineering Student";
-  focus: string[] = ["Backend Architecture", "Full-Stack Development", "Database Optimization"];
-  stack: string[] = [".NET", "Spring Boot", "Python", "PostgreSQL", "Docker"];
-  interests: string[] = ["System Design", "Distributed Systems", "AI & Autonomous Tech"];
-  motto: string = "Sadece çalışan değil; temiz, modüler ve sürdürülebilir kod 🌱";
+  readonly name: string = "Ayberk Özcan";
+  readonly role: string = "Junior Computer Engineering Student";
+  
+  focusAreas: string[] = [
+    "Backend Architecture & API Design",
+    "Relational Databases & Query Optimization",
+    "Object-Oriented & Modular System Design"
+  ];
 
-  sayHi(): string {
-    return "GitHub profilime hoş geldiniz! Kod yazmak ve üretmek benim için bir tutku 👨🏻‍💻🚀";
+  techStack: Record<string, string[]> = {
+    languages: ["Java", "C#", "Python", "TypeScript", "SQL"],
+    frameworks: [".NET Core", "Spring Boot"],
+    toolsAndDevOps: ["Docker", "Git/GitHub", "PostgreSQL", "Postman", "Linux"]
+  };
+
+  currentStatus(): string {
+    return "Algoritma pratikleri yapıyor, ölçeklenebilir backend mimarileri inşa ediyor ve sürekli öğreniyorum 🚀";
   }
 }
 
-const developer = new JuniorDeveloper();
-console.log(developer.sayHi());
+const ayberk = new JuniorDeveloper();
+console.log(ayberk.currentStatus());
 ```
 <br clear="right"/>
 
