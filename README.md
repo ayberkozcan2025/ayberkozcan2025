@@ -3,11 +3,11 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,100:6dd5fa&height=220&section=header&text=Merhaba,%20Ben%20Ayberk!&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Junior%20Computer%20Engineering%20Student%20%7C%20Software%20Developer&descAlignY=55&descSize=18" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=0E75B6&center=true&vCenter=true&width=650&lines=Merhaba+%F0%9F%91%8B+Ben+Ayberk;Junior+Bilgisayar+M%C3%BChendisli%C4%9Fi+%C3%96%C4%9Frencisiyim;Problem+%C3%87%C3%B6zme+ve+Yaz%C4%B1l%C4%B1m+Geli%C5%9Ftirme+A%C5%9F%C4%B1%C4%9F%C4%B1y%C4%B1m;S%C3%BCrekli+%C3%96%C4%9Frenmeye+ve+%C3%9Cretmeye+Devam+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=0E75B6&center=true&vCenter=true&width=650&lines=Merhaba+%F0%9F%91%8B+Ben+Ayberk;Junior+Bilgisayar+M%C3%BChendisli%C4%9Fi+%C3%96%C4%9Frencisiyim;Backend+%26+Full-Stack+Geli%C5%9Ftirme;Problem+%C3%87%C3%B6zme+ve+Algoritmalar;S%C3%BCrekli+%C3%96%C4%9Frenmeye+ve+%C3%9Cretmeye+Devam+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
-<img src="https://komarev.com/ghpvc/?username=KULLANICI_ADINIZ&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile Views" />&nbsp;
-<img src="https://img.shields.io/github/followers/KULLANICI_ADINIZ?label=Followers&style=for-the-badge&color=0e75b6" alt="Followers"/>&nbsp;
+<img src="https://komarev.com/ghpvc/?username=ayberkozcan2025&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile Views" />&nbsp;
+<img src="https://img.shields.io/github/followers/ayberkozcan2025?label=Followers&style=for-the-badge&color=0e75b6" alt="Followers"/>&nbsp;
 <img src="https://img.shields.io/badge/Status-Actively%20Learning%20%26%20Building-6dd5fa?style=for-the-badge" alt="Status"/>
 
 </div>
@@ -16,18 +16,19 @@
 
 ## 🚀 Hakkımda
 
-<img align="right" width="360" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Vscode-Dark.svg" alt="coding" />
+<img align="right" width="370" src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/media/developer.gif" alt="developer animation" />
 
 ```typescript
 class JuniorDeveloper {
   name: string = "Ayberk Özcan";
   role: string = "Junior Computer Engineering Student";
-  interests: string[] = ["Software Engineering", "Algorithms & Problem Solving", "System Design"];
-  currentlyLearning: string[] = ["Clean Code", "Design Patterns", "Cloud & DevOps Basics"];
-  motto: string = "Always building, always learning 🌱";
+  focus: string[] = ["Backend Architecture", "Full-Stack Development", "Database Optimization"];
+  stack: string[] = [".NET", "Spring Boot", "Python", "PostgreSQL", "Docker"];
+  interests: string[] = ["System Design", "Distributed Systems", "AI & Autonomous Tech"];
+  motto: string = "Sadece çalışan değil; temiz, modüler ve sürdürülebilir kod 🌱";
 
   sayHi(): string {
-    return "Github profilime hoş geldiniz! Kod yazmak ve üretmek benim için bir tutku 👨🏻‍💻🚀";
+    return "GitHub profilime hoş geldiniz! Kod yazmak ve üretmek benim için bir tutku 👨🏻‍💻🚀";
   }
 }
 
