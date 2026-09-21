@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,100:6dd5fa&height=220&section=header&text=Merhaba,%20Ben%20Fatime!&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Backend%20Developer%20%7C%20AI%2FML%20Enthusiast&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,100:6dd5fa&height=220&section=header&text=Merhaba,%20Ben%20[Adınız]!&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Junior%20Computer%20Engineering%20Student%20%7C%20Software%20Developer&descAlignY=55&descSize=18" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=0E75B6&center=true&vCenter=true&width=650&lines=Merhaba+%F0%9F%91%8B+Ben+Fatime;4.+S%C4%B1n%C4%B1f+Bilgisayar+M%C3%BChendisli%C4%9Fi+%C3%96%C4%9Frencisiyim;.NET+Core+%26+Spring+Boot+ile+%C3%A7al%C4%B1%C5%9F%C4%B1yorum;AI+%2F+ML+Alan%C4%B1na+Tutkuyla+Ba%C4%9Fl%C4%B1y%C4%B1m;Backend+Geli%C5%9Ftirme+A%C5%9F%C4%B1%C4%B1m%C4%B1m+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=0E75B6&center=true&vCenter=true&width=650&lines=Merhaba+%F0%9F%91%8B+Ben+[Adınız];Junior+Bilgisayar+M%C3%BChendisli%C4%9Fi+%C3%96%C4%9Frencisiyim;Problem+%C3%87%C3%B6zme+ve+Yaz%C4%B1l%C4%B1m+Geli%C5%9Ftirme+A%C5%9F%C4%B1%C4%9F%C4%B1y%C4%B1m;S%C3%BCrekli+%C3%96%C4%9Frenmeye+ve+%C3%9Cretmeye+Devam+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
-<img src="https://komarev.com/ghpvc/?username=fatimesevilgen&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="fatimesevilgen" />&nbsp;
-<img src="https://img.shields.io/github/followers/fatimesevilgen?label=Followers&style=for-the-badge&color=0e75b6" alt="followers"/>&nbsp;
-<img src="https://img.shields.io/badge/Status-Actively%20Learning-6dd5fa?style=for-the-badge" alt="status"/>
+<img src="https://komarev.com/ghpvc/?username=KULLANICI_ADINIZ&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile Views" />&nbsp;
+<img src="https://img.shields.io/github/followers/KULLANICI_ADINIZ?label=Followers&style=for-the-badge&color=0e75b6" alt="Followers"/>&nbsp;
+<img src="https://img.shields.io/badge/Status-Actively%20Learning%20%26%20Building-6dd5fa?style=for-the-badge" alt="Status"/>
 
 </div>
 
@@ -16,26 +16,23 @@
 
 ## 🚀 Hakkımda
 
-<img align="right" width="380" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Vscode-Dark.svg" alt="coding gif" />
+<img align="right" width="360" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Vscode-Dark.svg" alt="coding" />
 
 ```typescript
-class Fatime {
-  constructor() {
-    this.role = "4th Year Computer Engineering Student";
-    this.focus = ["Backend Development", "Artificial Intelligence"];
-    this.stack = [".NET Core", "Spring Boot", "AI/ML Frameworks"];
-    this.currentlyWriting = "Medium articles ✍️";
-    this.motto = "Always building, always learning 🌱";
-  }
+class JuniorDeveloper {
+  name: string = "Ayberk Özcan";
+  role: string = "Junior Computer Engineering Student";
+  interests: string[] = ["Software Engineering", "Algorithms & Problem Solving", "System Design"];
+  currentlyLearning: string[] = ["Clean Code", "Design Patterns", "Cloud & DevOps Basics"];
+  motto: string = "Always building, always learning 🌱";
 
-  sayHi() {
-    return "Bu satırları görüyorsan, kod da beni oldukça mutlu ediyor 😄";
+  sayHi(): string {
+    return "Github profilime hoş geldiniz! Kod yazmak ve üretmek benim için bir tutku 👨🏻‍💻🚀";
   }
 }
 
-const fatime = new Fatime();
-console.log(fatime.sayHi());
-```
+const developer = new JuniorDeveloper();
+console.log(developer.sayHi());
 
 <br clear="right"/>
 
@@ -45,19 +42,19 @@ console.log(fatime.sayHi());
 
 <div align="center">
 
-<a href="mailto:fatimesevilgen@gmail.com">
+<a href="mailto:ayberk.09ozcan@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
-<a href="https://linkedin.com/in/fatimesevilgen1" target="_blank">
+<a href="https://www.linkedin.com/in/ayberkozcan/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-<a href="https://medium.com/@fatimesevilgen" target="_blank">
+<a href="https://www.hackerrank.com/profile/ayberk_09ozcan" target="_blank">
   <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" />
 </a>
 <a href="https://www.hackerrank.com/fatimesevilgen0" target="_blank">
   <img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" />
 </a>
-<a href="https://leetcode.com/fatimesevilgen/" target="_blank">
+<a href="" target="_blank">
   <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
 </a>
 
