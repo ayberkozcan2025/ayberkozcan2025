@@ -1,0 +1,19 @@
+<!-- assets/contact-email.svg -->
+
+<svg xmlns="http://www.w3.org/2000/svg" width="116" height="36"
+     viewBox="0 0 116 36" role="img" aria-label="E-posta">
+  <title>E-posta</title>
+  <style>
+    .bg { fill: #fff; stroke: #cbd5e1; }
+    .fg { fill: #334155; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #161b22; stroke: #30363d; }
+      .fg { fill: #cbd5e1; }
+    }
+  </style>
+  <rect class="bg" x=".5" y=".5" width="115" height="35" rx="8" />
+  <text class="fg" x="20" y="23" text-anchor="middle"
+        font-family="Arial,sans-serif" font-size="13" font-weight="700">@</text>
+  <text class="fg" x="37" y="23"
+        font-family="Arial,sans-serif" font-size="12">E-posta</text>
+</svg>
