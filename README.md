@@ -111,7 +111,9 @@ const ayberk: DeveloperProfile = {
 
 <br/><br/>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ayberkozcan2025&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
+<a href="https://github.com/stats-organization/github-stats-extended">
+  <img src="https://github-stats-extended.vercel.app/api?username=ayberkozcan2025" alt="Ayberk's GitHub stats" />
+</a>
 
 </div>
 
