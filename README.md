@@ -106,14 +106,12 @@ const ayberk: DeveloperProfile = {
 <div align="center">
 
 <a href="https://git.io/streak-stats">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=ayberkozcan2025&amp;theme=transparent&amp;hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=ayberkozcan2025&theme=transparent&hide_border=true" alt="GitHub Streak" />
 </a>
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=ayberkozcan2025&amp;show_icons=true&amp;theme=radical&amp;border_color=e4e2e2" alt="Ayberk's GitHub Stats" />
-<br/><br/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayberkozcan2025&amp;theme=radical&amp;border_color=e4e2e2" alt="Most Used Languages" />
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ayberkozcan2025&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
 </div>
 
