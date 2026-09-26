@@ -118,7 +118,7 @@ const ayberk: DeveloperProfile = {
 <br/><br/>
 
 <a href="https://github.com/stats-organization/github-stats-extended">
-  <img width="495" src="https://github-stats-extended.vercel.app/api/top-langs/?username=ayberkozcan2025&theme=transparent&hide_border=true&include_forks=true&langs_count=8&card_width=495" alt="Top Languages" />
+  <img width="495" src="https://github-stats-extended.vercel.app/api/top-langs/?username=ayberkozcan2025&theme=transparent&hide_border=true&include_forks=true&langs_count=8&card_width=495&count_private=true" alt="Top Languages" />
 </a>
 
 </div>
