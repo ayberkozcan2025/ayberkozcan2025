@@ -101,22 +101,15 @@ const ayberk: DeveloperProfile = {
   <a href="https://learning.postman.com/docs/" title="Postman dokümantasyonu"><img src="https://skillicons.dev/icons?i=postman" alt="Postman" width="44" height="44" /></a>
 </p>
 
-## GitHub İstatistiklerim
+## 📊 GitHub İstatistiklerim
 
-<p align="center">
-  <a href="https://github.com/ayberkozcan2025?tab=repositories">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ayberkozcan2025/ayberkozcan2025/output/stats-dark.svg" />
-      <img src="https://raw.githubusercontent.com/ayberkozcan2025/ayberkozcan2025/output/stats.svg" alt="GitHub açık kaynak depo, yıldız, takipçi ve dil istatistikleri" width="400" />
-    </picture>
-  </a>
-  <a href="https://github.com/ayberkozcan2025?tab=repositories">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ayberkozcan2025/ayberkozcan2025/output/languages-dark.svg" />
-      <img src="https://raw.githubusercontent.com/ayberkozcan2025/ayberkozcan2025/output/languages.svg" alt="Açık depolarımda kullanılan dillerin kod baytı dağılımı" width="400" />
-    </picture>
-  </a>
-</p>
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=ayberkozcan2025&show_icons=true&theme=radical&border_color=e4e2e2" alt="Ayberk's GitHub Stats" />
+<br/><br/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayberkozcan2025&theme=radical&border_color=e4e2e2" alt="Most Used Languages" />
+
+</div>
 
 ## Katkı Grafiğim
 
