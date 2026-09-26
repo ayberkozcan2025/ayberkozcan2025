@@ -112,7 +112,19 @@ const ayberk: DeveloperProfile = {
 <br/><br/>
 
 <a href="https://github.com/stats-organization/github-stats-extended">
-  <img src="https://github-stats-extended.vercel.app/api?username=ayberkozcan2025" alt="Ayberk's GitHub stats" />
+  <img src="https://github-stats-extended.vercel.app/api?username=ayberkozcan2025&theme=transparent&hide_border=true" alt="Ayberk's GitHub Stats" />
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/stats-organization/github-stats-extended">
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=ayberkozcan2025&layout=compact&theme=transparent&hide_border=true" alt="Top Languages" />
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/stats-organization/github-stats-extended">
+  <img src="https://github-stats-extended.vercel.app/api/wakatime?username=ayberkozcan2025&theme=transparent&hide_border=true" alt="Development Time" />
 </a>
 
 </div>
