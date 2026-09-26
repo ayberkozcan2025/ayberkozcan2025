@@ -106,19 +106,19 @@ const ayberk: DeveloperProfile = {
 <div align="center">
 
 <a href="https://git.io/streak-stats">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=ayberkozcan2025&theme=transparent&hide_border=true" alt="GitHub Streak" />
+  <img width="495" src="https://github-readme-streak-stats.herokuapp.com?user=ayberkozcan2025&theme=transparent&hide_border=true" alt="GitHub Streak" />
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/stats-organization/github-stats-extended">
-  <img src="https://github-stats-extended.vercel.app/api?username=ayberkozcan2025&theme=transparent&hide_border=true" alt="Ayberk's GitHub Stats" />
+  <img width="495" src="https://github-stats-extended.vercel.app/api?username=ayberkozcan2025&theme=transparent&hide_border=true" alt="Ayberk's GitHub Stats" />
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/stats-organization/github-stats-extended">
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=ayberkozcan2025&layout=compact&theme=transparent&hide_border=true&include_forks=true&langs_count=8" alt="Top Languages" />
+  <img width="495" src="https://github-stats-extended.vercel.app/api/top-langs/?username=ayberkozcan2025&theme=transparent&hide_border=true&include_forks=true&langs_count=8&card_width=495" alt="Top Languages" />
 </a>
 
 </div>
