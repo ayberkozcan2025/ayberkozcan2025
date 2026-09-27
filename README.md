@@ -139,11 +139,7 @@ const ayberk: DeveloperProfile = {
   </picture>
 </p>
 
-<p align="center">
-  <a href="https://github.com/ayberkozcan2025">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ayberkozcan2025&theme=github-dark&hide_border=true&custom_title=Aktivite%20Grafigi" alt="Ayberk's GitHub Activity Graph" width="100%" />
-  </a>
-</p>
+[![Ayberk's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ayberkozcan2025&theme=github-dark&hide_border=true&custom_title=Aktivite%20Grafi%C4%9Fi&v=2)](https://github.com/ayberkozcan2025)
 
 <p align="center"><img src="./assets/neon-divider.svg" alt="" width="760" height="28" /></p>
 
