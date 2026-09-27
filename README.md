@@ -132,14 +132,18 @@ const ayberk: DeveloperProfile = {
 
 ## 📈 Katkı Grafiğim
 
-<div align="center">
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ayberkozcan2025/ayberkozcan2025/output/contributions-dark.svg" />
+    <img src="https://raw.githubusercontent.com/ayberkozcan2025/ayberkozcan2025/output/contributions.svg" alt="GitHub katkılarımdan oluşturulan yılan animasyonu" width="100%" />
+  </picture>
+</p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ayberkozcan2025/ayberkozcan2025/output/github-contribution-grid-snake-dark.svg?v=1" />
-  <img src="https://raw.githubusercontent.com/ayberkozcan2025/ayberkozcan2025/output/github-contribution-grid-snake.svg?v=1" alt="GitHub katkılarımdan oluşturulan yılan animasyonu" width="100%" />
-</picture>
-
-</div>
+<p align="center">
+  <a href="https://github.com/ayberkozcan2025">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ayberkozcan2025&theme=github-dark&hide_border=true&custom_title=Aktivite%20Grafi%C4%9Fi" alt="Ayberk's GitHub Activity Graph" width="100%" />
+  </a>
+</p>
 
 <p align="center"><img src="./assets/neon-divider.svg" alt="" width="760" height="28" /></p>
 
