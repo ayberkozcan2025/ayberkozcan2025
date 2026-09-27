@@ -146,7 +146,7 @@ const ayberk: DeveloperProfile = {
 </p>
 
 <p align="center">
-  <img src="./assets/neon-divider.svg" alt="" width="875" />
+  <img src="./assets/neon-divider.svg" alt="" width="100%"/>
 </p>
 
 <p align="center">
