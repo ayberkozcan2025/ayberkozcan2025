@@ -145,7 +145,9 @@ const ayberk: DeveloperProfile = {
   </a>
 </p>
 
-<p align="center"><img src="./assets/neon-divider.svg" alt="" width="760" height="28" /></p>
+<p align="center">
+  <img src="./assets/neon-divider.svg" alt="" width="100%" style="max-width: 850px;" />
+</p>
 
 <p align="center">
   <img src="./assets/terminal-quote.svg" alt="Kod yazmak, düşünceyi çalışan bir gerçekliğe dönüştürmektir." width="760" />
