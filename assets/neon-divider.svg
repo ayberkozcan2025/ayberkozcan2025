@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="28" viewBox="0 0 760 28" role="presentation">
+<defs><linearGradient id="fade"><stop stop-color="#7aff38" stop-opacity="0"/><stop offset=".5" stop-color="#7aff38"/><stop offset="1" stop-color="#7aff38" stop-opacity="0"/></linearGradient><mask id="dash-mask"><path d="M20 14H740" stroke="white" stroke-width="2" stroke-dasharray="12 8"/></mask></defs>
+<style>.pulse{animation:travel 5s ease-in-out infinite alternate}@keyframes travel{from{transform:translateX(-140px)}to{transform:translateX(680px)}}@media(prefers-reduced-motion:reduce){.pulse{animation:none;transform:translateX(280px)}}</style>
+<path d="M20 14H740" stroke="#7aff38" stroke-opacity=".18" stroke-width="2" stroke-dasharray="12 8"/>
+<g mask="url(#dash-mask)"><rect class="pulse" y="10" width="220" height="8" fill="url(#fade)"/></g>
+</svg>

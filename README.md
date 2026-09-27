@@ -1,33 +1,33 @@
-<!-- README.md -->
+<p align="center">
+  <a href="https://github.com/ayberkozcan2025/ayberkozcan2025/blob/main/README.en.md">EN</a> · <strong>TR</strong>
+  &nbsp; | &nbsp;
+  <a href="https://github.com/settings/appearance" title="GitHub görünüm ayarlarında açık veya koyu temayı seç">☀ / ☾ Görünüm</a>
+</p>
+
 
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0e75b6,100:6dd5fa&amp;height=200&amp;section=header&amp;text=Merhaba,%20Ben%20Ayberk!&amp;fontSize=42&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=Junior%20Computer%20Engineering%20Student%20%7C%20Software%20Developer&amp;descAlignY=58&amp;descSize=16" width="100%" alt="Merhaba, ben Ayberk!" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=20&amp;duration=3000&amp;pause=1200&amp;color=64748B&amp;center=true&amp;vCenter=true&amp;width=680&amp;height=50&amp;lines=Backend+%26+Full-Stack+Development;Problem+Solving+%26+Algorithms;Learning%2C+Building%2C+Improving" alt="Backend geliştirme, algoritmalar ve sürekli öğrenme" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=20&amp;duration=3000&amp;pause=1200&amp;color=64748B&amp;center=true&amp;vCenter=true&amp;width=680&amp;height=50&amp;lines=Backend+ve+Full-Stack+Geli%C5%9Ftirme;Problem+%C3%87%C3%B6zme+ve+Algoritmalar;%C3%96%C4%9Fren%2C+%C3%9Cret%2C+Geli%C5%9F" alt="Backend geliştirme, algoritmalar ve sürekli öğrenme" />
 
 <br />
 
-<!-- Profile Views günlük özet, Followers canlı Shields kaynağıdır.
-     GitHub SVG img içinde fare etkileşimi çalıştırmaz; yaylanma otomatiktir. -->
-<a href="https://github.com/ayberkozcan2025" title="Profile Views · Günlük güncellenir">
-  <img src="https://raw.githubusercontent.com/ayberkozcan2025/ayberkozcan2025/output/badge-views.svg" alt="Profile Views — günlük görüntülenme özeti" width="192" height="90" align="middle" />
+<a href="https://github.com/ayberkozcan2025" title="Profile Views">
+  <img src="https://komarev.com/ghpvc/?username=ayberkozcan2025&amp;label=Profile%20Views&amp;color=0284c7&amp;style=plastic" alt="Profile Views" height="26" align="middle" />
 </a>
 <a href="https://github.com/ayberkozcan2025?tab=followers" title="GitHub takipçilerim — canlı veri kaynağı">
-  <img src="https://img.shields.io/github/followers/ayberkozcan2025?label=Followers&amp;style=plastic&amp;color=0284c7&amp;labelColor=173a78&amp;logo=github&amp;logoColor=white" alt="Followers — GitHub takipçilerim" width="172" height="30" align="middle" />
+  <img src="https://img.shields.io/github/followers/ayberkozcan2025?label=Followers&amp;style=plastic&amp;color=0284c7&amp;logo=github&amp;logoColor=white" alt="Followers — GitHub takipçilerim" height="26" align="middle" />
 </a>
 <a href="https://github.com/ayberkozcan2025?tab=repositories" title="Projelerimi incele">
-  <img src="https://raw.githubusercontent.com/ayberkozcan2025/ayberkozcan2025/output/badge-status.svg" alt="Status: Actively Learning &amp; Building" width="320" height="90" align="middle" />
+  <img src="https://img.shields.io/badge/Status-Actively%20Learning%20%26%20Building-0284c7?style=plastic" alt="Status: Actively Learning &amp; Building" height="26" align="middle" />
 </a>
-<!-- Aynı Komarev sayacı profil görüntüleme isteklerini saymaya devam eder.
-     Servis ve GitHub görsel önbelleği nedeniyle bu sayı benzersiz ziyaretçi sayısı değildir. -->
-<img src="https://komarev.com/ghpvc/?username=ayberkozcan2025&amp;label=Profile%20views&amp;color=64748b&amp;style=flat" width="1" height="1" alt="" />
 
 </div>
 
 ## Hakkımda
 
-<img src="./assets/coding.svg" alt="Animasyonlu kod editörü" width="320" height="210" align="right" />
+<img src="./assets/coding.svg" alt="Animasyonlu kod editörü" width="300" height="197" align="right" />
 
 Merhaba, ben **Ayberk Özcan**. Bilgisayar mühendisliği 3. sınıf öğrencisiyim. Teorik bilgileri çalışan, anlaşılır ve sürdürülebilir yazılımlara dönüştürmeye odaklanıyorum.
 
@@ -139,7 +139,7 @@ const ayberk: DeveloperProfile = {
   </picture>
 </p>
 
----
+<p align="center"><img src="./assets/neon-divider.svg" alt="" width="760" height="28" /></p>
 
 <p align="center">
   <img src="./assets/terminal-quote.svg" alt="Kod yazmak, düşünceyi çalışan bir gerçekliğe dönüştürmektir." width="760" />

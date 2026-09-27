@@ -104,7 +104,7 @@ def language_card(theme, languages):
     return card(theme, "Kodun dili", "Açık depolardaki kod dağılımı · Fork hariç", "".join(body))
 
 
-def frame_snake(directory, theme):
+def frame_snake(directory, theme, language="tr"):
     suffix = "-dark" if theme == "dark" else ""
     path = directory / f"github-contribution-grid-snake{suffix}.svg"
     if not path.exists():
@@ -119,12 +119,15 @@ def frame_snake(directory, theme):
     body = ET.tostring(root, encoding="unicode")
     dots = (["#eff6ff", "#bae6fd", "#7dd3fc", "#38bdf8", "#0284c7"]
             if theme == "light" else ["#161b22", "#0c4a6e", "#0369a1", "#0ea5e9", "#7dd3fc"])
-    body += text(24, 287, "Her kare bir gün · Katkı yoğunluğu", 11)
-    body += text(680, 287, "Az", 11)
+    english = language == "en"
+    body += text(24, 287, "Each square is a day · Contribution intensity" if english else "Her kare bir gün · Katkı yoğunluğu", 11)
+    body += text(670, 287, "Less" if english else "Az", 11)
     for index, color in enumerate(dots):
         body += f'<rect x="{704+index*20}" y="276" width="13" height="13" rx="3" fill="{color}"/>'
-    body += text(815, 287, "Çok", 11)
-    output = card(theme, "Bir yıl, gün gün", "Son 12 ayın GitHub katkıları · Her gün güncellenir", body, 880, 310)
+    body += text(815, 287, "More" if english else "Çok", 11)
+    output = card(theme, "A year, day by day" if english else "Bir yıl, gün gün",
+                  "GitHub contributions over the last 12 months · Updated daily" if english else "Son 12 ayın GitHub katkıları · Her gün güncellenir", body, 880, 310)
+    suffix = ("-en" if english else "") + suffix
     (directory / f"contributions{suffix}.svg").write_text(output)
 
 
@@ -141,6 +144,7 @@ def main():
         (args.output / f"stats{suffix}.svg").write_text(stats(theme, profile, repos, languages, date))
         (args.output / f"languages{suffix}.svg").write_text(language_card(theme, languages))
         frame_snake(args.output, theme)
+        frame_snake(args.output, theme, "en")
     print(f"Generated cards for {args.username}: {len(repos)} public non-fork repositories.")
 
 
