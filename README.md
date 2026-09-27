@@ -8,13 +8,20 @@
 
 <br />
 
-<!-- Sabit boyutlar yüklenirken düzen kaymasını azaltır.
-     Dış servisin yanıt süresi README içinden kontrol edilemez. -->
-<img src="https://komarev.com/ghpvc/?username=ayberkozcan2025&amp;label=Profile%20views&amp;color=64748b&amp;style=flat" alt="Profile views" width="150" height="20" />
-&nbsp;
-<a href="https://github.com/ayberkozcan2025?tab=followers">
-  <img src="https://img.shields.io/github/followers/ayberkozcan2025?label=Followers&amp;style=flat&amp;color=64748b" alt="GitHub takipçilerim" width="110" height="20" />
+<!-- Profile Views günlük özet, Followers canlı Shields kaynağıdır.
+     GitHub SVG img içinde fare etkileşimi çalıştırmaz; yaylanma otomatiktir. -->
+<a href="https://github.com/ayberkozcan2025" title="Profile Views · Günlük güncellenir">
+  <img src="https://raw.githubusercontent.com/ayberkozcan2025/ayberkozcan2025/output/badge-views.svg" alt="Profile Views — günlük görüntülenme özeti" width="192" height="90" align="middle" />
 </a>
+<a href="https://github.com/ayberkozcan2025?tab=followers" title="GitHub takipçilerim — canlı veri kaynağı">
+  <img src="https://img.shields.io/github/followers/ayberkozcan2025?label=Followers&amp;style=plastic&amp;color=0284c7&amp;labelColor=173a78&amp;logo=github&amp;logoColor=white" alt="Followers — GitHub takipçilerim" width="172" height="90" align="middle" />
+</a>
+<a href="https://github.com/ayberkozcan2025?tab=repositories" title="Projelerimi incele">
+  <img src="https://raw.githubusercontent.com/ayberkozcan2025/ayberkozcan2025/output/badge-status.svg" alt="Status: Actively Learning &amp; Building" width="320" height="90" align="middle" />
+</a>
+<!-- Aynı Komarev sayacı profil görüntüleme isteklerini saymaya devam eder.
+     Servis ve GitHub görsel önbelleği nedeniyle bu sayı benzersiz ziyaretçi sayısı değildir. -->
+<img src="https://komarev.com/ghpvc/?username=ayberkozcan2025&amp;label=Profile%20views&amp;color=64748b&amp;style=flat" width="1" height="1" alt="" />
 
 </div>
 
@@ -135,5 +142,5 @@ const ayberk: DeveloperProfile = {
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=400&amp;size=16&amp;duration=5200&amp;pause=2400&amp;color=64748B&amp;center=true&amp;vCenter=true&amp;width=760&amp;height=48&amp;lines=Kod+yazmak%2C+d%C3%BC%C5%9F%C3%BCnceyi+%C3%A7al%C4%B1%C5%9Fan+bir+ger%C3%A7ekli%C4%9Fe+d%C3%B6n%C3%BC%C5%9Ft%C3%BCrmektir." alt="Kod yazmak, düşünceyi çalışan bir gerçekliğe dönüştürmektir." width="760" height="48" />
+  <img src="./assets/terminal-quote.svg" alt="Kod yazmak, düşünceyi çalışan bir gerçekliğe dönüştürmektir." width="760" />
 </p>

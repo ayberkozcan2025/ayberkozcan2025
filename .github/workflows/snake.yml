@@ -11,6 +11,7 @@ on:
     paths:
       - .github/workflows/snake.yml
       - scripts/profile_cards.py
+      - scripts/profile_badges.py
 
 permissions:
   contents: write
@@ -39,6 +40,12 @@ jobs:
 
       - name: Generate statistics and frame contribution animations
         run: python3 scripts/profile_cards.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USERNAME: ${{ github.repository_owner }}
+
+      - name: Generate blue profile badges
+        run: python3 scripts/profile_badges.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_USERNAME: ${{ github.repository_owner }}

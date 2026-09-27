@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="180" viewBox="0 0 760 180" role="img" aria-labelledby="title desc">
+<title id="title">Kod yazmak, düşünceyi çalışan bir gerçekliğe dönüştürmektir.</title>
+<desc id="desc">Koyu terminalde açık neon yeşiliyle yazılan ve silinen bir cümle; hafif Matrix esintili arka plan. Hareket azaltma tercihinde metin sabit görünür.</desc>
+<defs>
+  <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071615"/><stop offset="1" stop-color="#040b10"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2d685f"/><stop offset=".6" stop-color="#14382f"/><stop offset="1" stop-color="#204e59"/></linearGradient>
+  <filter id="glow" x="-10%" y="-60%" width="120%" height="220%"><feGaussianBlur stdDeviation=".7"/><feComponentTransfer><feFuncA type="linear" slope=".55"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="screen"><rect x="10" y="45" width="740" height="117" rx="8"/></clipPath>
+  <clipPath id="typing"><rect class="reveal" x="0" y="-23" width="612.0" height="34"/></clipPath>
+</defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,Liberation Mono,monospace}
+.reveal{animation:type 14s steps(60,end) infinite}
+.cursor{animation:move 14s steps(60,end) infinite,blink 1s steps(2,end) infinite}
+.rain{font-size:9px;fill:#51e8a0;opacity:.11;animation:rain 9s linear infinite}
+.r1{animation-delay:-3s}.r2{animation-delay:-6s}
+.scan{animation:scan 10s linear infinite}
+@keyframes type{0%,10%{width:0}53%,76%{width:612.0px}93%,100%{width:0}}
+@keyframes move{0%,10%{transform:translateX(0)}53%,76%{transform:translateX(612.0px)}93%,100%{transform:translateX(0)}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes rain{from{transform:translateY(-65px)}to{transform:translateY(130px)}}
+@keyframes scan{from{transform:translateY(0)}to{transform:translateY(115px)}}
+@media(prefers-reduced-motion:reduce){.reveal{animation:none;width:612.0px}.cursor,.rain,.scan{animation:none;display:none}}
+</style>
+<rect x="3" y="9" width="754" height="167" rx="15" fill="#000" opacity=".14"/>
+<rect x="1" y="1" width="758" height="170" rx="14" fill="url(#shell)" stroke="url(#edge)"/>
+<path d="M2 43H758" stroke="#15372f"/>
+<circle cx="22" cy="23" r="4" fill="#335348"/>
+<circle cx="38" cy="23" r="4" fill="#427063"/>
+<circle cx="54" cy="23" r="4" fill="#69b299"/>
+<text x="78" y="27" fill="#86afa0" font-size="11">ayberk@github: ~</text>
+<text x="735" y="27" fill="#487569" font-size="10" text-anchor="end">TERMINAL / 01</text>
+<g clip-path="url(#screen)">
+<text class="rain r0" x="18" y="48">0<tspan x="18" dy="14">1</tspan><tspan x="18" dy="14">0</tspan><tspan x="18" dy="14">1</tspan><tspan x="18" dy="14">1</tspan></text>
+<text class="rain r1" x="30" y="48">0<tspan x="30" dy="14">1</tspan><tspan x="30" dy="14">0</tspan><tspan x="30" dy="14">1</tspan><tspan x="30" dy="14">1</tspan></text>
+<text class="rain r2" x="695" y="48">0<tspan x="695" dy="14">1</tspan><tspan x="695" dy="14">0</tspan><tspan x="695" dy="14">1</tspan><tspan x="695" dy="14">1</tspan></text>
+<text class="rain r0" x="710" y="48">0<tspan x="710" dy="14">1</tspan><tspan x="710" dy="14">0</tspan><tspan x="710" dy="14">1</tspan><tspan x="710" dy="14">1</tspan></text>
+<text class="rain r1" x="724" y="48">0<tspan x="724" dy="14">1</tspan><tspan x="724" dy="14">0</tspan><tspan x="724" dy="14">1</tspan><tspan x="724" dy="14">1</tspan></text>
+<text class="rain r2" x="738" y="48">0<tspan x="738" dy="14">1</tspan><tspan x="738" dy="14">0</tspan><tspan x="738" dy="14">1</tspan><tspan x="738" dy="14">1</tspan></text>
+<path class="scan" d="M12 47H748" stroke="#78ffbf" stroke-opacity=".055"/>
+</g>
+<text x="30" y="102" fill="#5cd8a6" font-size="18">❯</text>
+<g transform="translate(54 102)">
+  <g clip-path="url(#typing)"><text fill="#a4ffcb" font-size="17" textLength="612.0" lengthAdjust="spacingAndGlyphs" filter="url(#glow)">Kod yazmak, düşünceyi çalışan bir gerçekliğe dönüştürmektir.</text></g>
+  <rect class="cursor" x="2" y="-17" width="8" height="21" rx="1" fill="#b7ffd7" opacity=".85"/>
+</g>
+<circle cx="30" cy="143" r="2.5" fill="#67d6a2"/>
+<text x="41" y="146" fill="#527f70" font-size="9" letter-spacing="1">THINK · BUILD · REPEAT</text>
+</svg>
