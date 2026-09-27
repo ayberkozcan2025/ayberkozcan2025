@@ -14,7 +14,7 @@
   <img src="https://raw.githubusercontent.com/ayberkozcan2025/ayberkozcan2025/output/badge-views.svg" alt="Profile Views — günlük görüntülenme özeti" width="192" height="90" align="middle" />
 </a>
 <a href="https://github.com/ayberkozcan2025?tab=followers" title="GitHub takipçilerim — canlı veri kaynağı">
-  <img src="https://img.shields.io/github/followers/ayberkozcan2025?label=Followers&amp;style=plastic&amp;color=0284c7&amp;labelColor=173a78&amp;logo=github&amp;logoColor=white" alt="Followers — GitHub takipçilerim" width="172" height="90" align="middle" />
+  <img src="https://img.shields.io/github/followers/ayberkozcan2025?label=Followers&amp;style=plastic&amp;color=0284c7&amp;labelColor=173a78&amp;logo=github&amp;logoColor=white" alt="Followers — GitHub takipçilerim" width="172" height="30" align="middle" />
 </a>
 <a href="https://github.com/ayberkozcan2025?tab=repositories" title="Projelerimi incele">
   <img src="https://raw.githubusercontent.com/ayberkozcan2025/ayberkozcan2025/output/badge-status.svg" alt="Status: Actively Learning &amp; Building" width="320" height="90" align="middle" />
