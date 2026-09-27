@@ -141,7 +141,7 @@ const ayberk: DeveloperProfile = {
 
 <p align="center">
   <a href="https://github.com/ayberkozcan2025">
-    <img src="https://github-readme-activity-graph-liart-zeta.vercel.app/graph?username=ayberkozcan2025&theme=github-dark&hide_border=true&custom_title=Katk%C4%B1%20Zaman%20%C3%87izelgesi" alt="Ayberk's GitHub Activity Graph" width="100%" />
+    <img src="https://github-readme-activity-graph-liart-zeta.vercel.app/graph?username=ayberkozcan2025&theme=github-dark&hide_border=true&custom_title=Contribution%20Timeline" alt="Ayberk's GitHub Activity Graph" width="100%" />
   </a>
 </p>
 
