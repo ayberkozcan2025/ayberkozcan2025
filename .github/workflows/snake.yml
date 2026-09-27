@@ -10,6 +10,7 @@ on:
     branches: [main]
     paths:
       - .github/workflows/snake.yml
+      - scripts/profile_cards.py
 
 permissions:
   contents: write
@@ -24,94 +25,26 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
 
       - name: Generate light and dark contribution animations
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/raw-snake.svg?color_snake=#0284c7&color_dots=#eff6ff,#bae6fd,#7dd3fc,#38bdf8,#0284c7
-            dist/raw-snake-dark.svg?palette=github-dark&color_snake=#38bdf8&color_dots=#161b22,#0c4a6e,#0369a1,#0ea5e9,#7dd3fc
+            dist/github-contribution-grid-snake.svg?color_snake=#0284c7&color_dots=#eff6ff,#bae6fd,#7dd3fc,#38bdf8,#0284c7
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#38bdf8&color_dots=#161b22,#0c4a6e,#0369a1,#0ea5e9,#7dd3fc
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Frame contribution animations with GitHub calendar card
+      - name: Generate statistics and frame contribution animations
+        run: python3 scripts/profile_cards.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_USERNAME: ${{ github.repository_owner }}
-        run: |
-          python3 -c '
-          import os, re, json, datetime, urllib.request
-
-          username = os.environ.get("PROFILE_USERNAME", "")
-          token = os.environ.get("GITHUB_TOKEN", "")
-
-          total_contributions = None
-          try:
-              q = "query($login: String!) { user(login: $login) { contributionsCollection { contributionCalendar { totalContributions } } } }"
-              req = urllib.request.Request("https://api.github.com/graphql", data=json.dumps({"query": q, "variables": {"login": username}}).encode(), headers={"Authorization": f"Bearer {token}", "User-Agent": "Action"})
-              with urllib.request.urlopen(req) as resp:
-                  total_contributions = json.loads(resp.read().decode())["data"]["user"]["contributionsCollection"]["contributionCalendar"]["totalContributions"]
-          except Exception:
-              pass
-
-          count_prefix = f"{total_contributions} " if total_contributions is not None else ""
-          title_text = f"{count_prefix}contributions in this year"
-
-          today = datetime.date.today()
-          days_back = 52 * 7 + ((today.weekday() + 1) % 7)
-          start_date = today - datetime.timedelta(days=days_back)
-          month_names = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
-          months_svg, last_m = [], -1
-          for col in range(53):
-              d = start_date + datetime.timedelta(days=col * 7)
-              if d.month != last_m and col < 51:
-                  months_svg.append(f"<text x=\"{50 + col * 16}\" y=\"62\" class=\"lbl\">{month_names[d.month - 1]}</text>")
-                  last_m = d.month
-          months_str = "\n    ".join(months_svg)
-
-          def build(inner, is_dark):
-              bg = "#0d1117" if is_dark else "#ffffff"
-              border = "#30363d" if is_dark else "#d0d7de"
-              lbl_c = "#7d8590" if is_dark else "#57606a"
-              legend = ["#161b22", "#0c4a6e", "#0369a1", "#0ea5e9", "#7dd3fc"] if is_dark else ["#ebedf0", "#bae6fd", "#7dd3fc", "#38bdf8", "#0284c7"]
-              leg_svg = "".join([f"<rect x=\"{i*13}\" y=\"0\" width=\"10\" height=\"10\" rx=\"2\" fill=\"{c}\" />" for i, c in enumerate(legend)])
-              return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 230" width="100%" height="100%">
-            <style>
-              .title {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 600; fill: #38bdf8; }}
-              .lbl {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 10px; fill: {lbl_c}; }}
-              .card {{ fill: {bg}; stroke: {border}; stroke-width: 1px; rx: 6px; }}
-            </style>
-            <text x="10" y="24" class="title">{title_text}</text>
-            <rect x="5" y="38" width="910" height="184" class="card" />
-            <g>{months_str}</g>
-            <g>
-              <text x="18" y="100" class="lbl">Mon</text>
-              <text x="18" y="132" class="lbl">Wed</text>
-              <text x="18" y="164" class="lbl">Fri</text>
-            </g>
-            <g transform="translate(50, 74)">{inner}</g>
-            <g>
-              <text x="50" y="208" class="lbl">Learn how we count contributions</text>
-              <g transform="translate(800, 199)">
-                <text x="-30" y="9" class="lbl">Less</text>{leg_svg}<text x="70" y="9" class="lbl">More</text>
-              </g>
-            </g>
-          </svg>"""
-
-          for mode, src, out_names in [(True, "dist/raw-snake-dark.svg", ["contributions-dark.svg", "github-contribution-grid-snake-dark.svg"]), (False, "dist/raw-snake.svg", ["contributions.svg", "github-contribution-grid-snake.svg"])]:
-              if os.path.exists(src):
-                  with open(src, "r") as f:
-                      inner = re.search(r"<svg[^>]*>([\s\S]*?)</svg>", f.read()).group(1)
-                  res = build(inner, mode)
-                  for name in out_names:
-                      with open(f"dist/{name}", "w") as f:
-                          f.write(res)
-          '
 
       - name: Publish profile visuals to output branch
-        uses: crazy-max/ghaction-github-pages@v4.2.0
+        uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865 # v4.2.0
         with:
           target_branch: output
           build_dir: dist
